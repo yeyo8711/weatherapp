@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #1d1f20;
+  background-image: url("https://st2.depositphotos.com/2601331/12197/i/950/depositphotos_121972288-stock-photo-natural-background-forest-glade-with.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#box {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width: 600px;
+  height: 600px;
+  color: white;
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1d1f20;
+  position: relative;
+  border-radius: 5%;
+}
+
+.sidebar {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+
+  left: 25%;
+}
+
+.cficon {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.mainwindow {
+  border: 2px solid white;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.forecast {
+  height: 300px;
+  width: 600px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.day {
+  font-size: 20px;
+  font-weight: 800;
+}
+.condition {
+  font-weight: 800;
+}
+
+input {
+  height: 40px;
+  width: 150px;
+  padding-bottom: 5px;
+}
+.ui.primary.button {
+  margin-top: 5px;
+}
